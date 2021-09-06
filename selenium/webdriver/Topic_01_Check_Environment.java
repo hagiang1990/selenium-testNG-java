@@ -21,6 +21,8 @@ public void beforeClass() {
 driver = new FirefoxDriver();
 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 driver.get("http://demo.guru99.com/v4/");
+
+
 }
  
 @Test
